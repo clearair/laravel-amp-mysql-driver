@@ -1,0 +1,25 @@
+{
+    "name": "azhi/laravel-amp-mysql-driver",
+    "description": "A mysql driver for Laravel framework with AMP technology support.",
+    "type": "library",
+    "require": {
+        "illuminate/database": "^11.44",
+        "amphp/mysql": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Azhi\\LaravelAmpMysqlDriver\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Azhi",
+            "email": "quzhi552@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
+    }
+}
